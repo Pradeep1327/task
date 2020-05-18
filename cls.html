@@ -9,14 +9,14 @@
   <img src="logo.jpg">
 
 
-  <canvas id="canvas" width="470" height="260">
+  <canvas id="canvas" width="1000" height="960">
   </canvas>
-  <button id="start" onclick="startTime();">START</button>
+  <button id="start" onclick="startTime(); delay()">START/RESUME</button>
   <input  onclick="stop()" type="button" value="PAUSE" id="pause"></input>
-  <input onclick="resume()" type="button" value="RESUME" id="resume"></input>
-  <input onclick="restart()" type="button" value="RESTART" id="restart"></input>
-
+  <button onClick="location.reload()" id="restart">RESTART</button>
+  <div id="score">Score:0</div>
   <div id="display">Time:0:00</div>
+
    <p>Weaved with 🕸 by Spider</p>
  <script src="cls.js"></script>
 

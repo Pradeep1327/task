@@ -4,11 +4,28 @@ border-radius: 5px;
 }
 
 #canvas{
-  width: 900px;
-  margin: 50px 100px 130px 300px;
+
   border: 1px solid #FFE4E1;
   background-color: #000B18;
+  margin-left: 250px;
 }
+
+#score{
+  font-size: 40px;
+  position: relative;
+  bottom: 500px;
+  font-family: cursive;
+  color: #ffffff;
+}
+
+#display{
+  font-size: 40px;
+  position: relative;
+  bottom: 400px;
+  font-family: cursive;
+  color: #ffffff;
+}
+
 
 p{
   font-size: 20px;
@@ -17,7 +34,7 @@ p{
   text-align: center;
   margin-top: 50px;
   position: relative;
-  bottom: 230px;
+  bottom: 200px;
 }
 
 h1{
@@ -40,8 +57,8 @@ img{
 
 #start{
   position: relative;
-  bottom: 500px;
-  right:20px;
+  bottom: 600px;
+  left:50px;
   font-size: 30px;
   font-family: fantasy;
   border: 1px solid black;
@@ -50,41 +67,19 @@ img{
 
 #pause{
   position:relative;
-  bottom: 380px;
+  bottom: 480px;
   font-size: 30px;
   font-family: fantasy;
   border: 1px solid black;
-  right: 110px;
-}
-
-#resume{
-  position:relative;
-  bottom: 310px;
-  font-size: 30px;
-  font-family: fantasy;
-  border: 1px solid black;
-  right: 120px;
-  float: right;
-
-
-}
-
-#display{
-  font-size: 40px;
-  position: relative;
-  bottom: 400px;
-  font-family: cursive;
-  color: #ffffff;
+  left: 1350px;
 }
 
 #restart{
-  position:relative;
-  bottom: 200px;
+  position: relative;
   font-size: 30px;
   font-family: fantasy;
   border: 1px solid black;
-  right: 5px;
-  float: right;
-
+  bottom: 300px;
+  left: 1250px;
 
 }
