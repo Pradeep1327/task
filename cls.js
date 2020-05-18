@@ -33,6 +33,12 @@ function Circle( x, y, dx, dy, radius ) {
 			context.clearRect(0,0,canvas.width,canvas.height);
 			clearTimeout(t);
 			score += 0;
+			context.fillText("GAME OVER",canvas.width/2,canvas.height/2);
+			context.textAlign ='center';
+			context.font ="50px Arial";
+			context.fillStyle ="#FFFF00";
+			context.fontSize
+
 		}
 
 
